@@ -3,17 +3,17 @@
 #include "Adafruit_MQTT_Client.h"
 
 
-#define relay            4 // You can assign any pin
+#define relay            4 // You can assign any pin of the NodeMCU
 
-#define WLAN_SSID       "home"             // Your SSID
+#define WLAN_SSID       "wifi"             // Your SSID
 #define WLAN_PASS       "password"        // Your password
 
 /********* Adafruit.io Setup ***********/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "jnxkjend"            // Replace it with your username
-#define AIO_KEY         "aio_nkjnvknvkrn"   // Replace with your Project Auth Key
+#define AIO_USERNAME    "username"            // Replace it with your username
+#define AIO_KEY         "aio_key"   // Replace with your Project Auth Key
 
 /**** Global State (you don't need to change this!) ******/
 
